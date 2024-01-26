@@ -1,0 +1,4 @@
+Napraviti apstraktnu klasu Zivotinja koja ima godinu i logicku vrednost za sisara, takodje ima
+apstraktan metod koji proizvodi zvuk zivotinje.
+Napraviti klasu Pas i Macka koje nasledjuju klasu Zivotinja, i definisati njihov zvuk.
+Napraviti klasu Zoo koji ima listu zivotinja i metodu koja broji koliko imamo pasa a koliko macaka.

@@ -1,0 +1,7 @@
+Napraviti apstraktnu klasu MedijskiSadrzaj koja sadrži informacije o medijskom delu,
+kao što su naslov, godina izdanja i žanr.
+Definisati apstraktnu metodu prikaziInformacije koji će biti implementiran u svakoj od klasa koje nasleđuju MedijskiSadrzaj.
+Ovaj metod će omogućiti prikazivanje informacija o filmu ili seriji.
+Kreirati klase Film i Serija koje nasleđuju klasu MedijskiSadrzaj i dodati dodatne atribute i metode specifične za svaku
+vrstu medijskog sadržaja.
+Dodati atribute koji opisuju specifične karakteristike proizvoda, na primer, kategoriju proizvoda ili rok trajanja.

@@ -1,0 +1,16 @@
+Definisati interfejs Upaljiv sa metodama:
+upali(): postavlja stanje uređaja na uključeno.
+ugasi(): postavlja stanje uređaja na isključeno.
+Ove metode menjaju vrednost boolean promenljive i mogu imati neki ispis
+Definisati interfejs InternetPovezan sa metodama:
+poveziNaInternet(): uspostavlja vezu uređaja sa internetom.
+iskljuciInternet(): prekida vezu uređaja sa internetom.
+Ove metode menjaju vrednost boolean promenljive i mogu imati neki ispis
+(Metode je moguce izvršiti samo ako je uređaj uključen)
+Definisati klasu Racunar koja implementira oba interfejsa (Upaljiv i InternetPovezan) i dodaje dodatne osobine kao što su:
+tip procesora (String),
+količina RAM-a (int).
+Definisati klasu Stampac koja implementira interfejs Upaljiv i dodaje osobine kao što su:
+tip štampe (String),
+boja (boolean - true za kolor, false za crno-belo).
+U glavnom programu, kreirati instance klase Racunar i klase Stampac, pozvati odgovarajuće metode i ispisati stanje uređaja.

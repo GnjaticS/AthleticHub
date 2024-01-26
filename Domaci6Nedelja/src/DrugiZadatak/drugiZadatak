@@ -1,0 +1,16 @@
+Definišemo hijerarhiju klasa koje predstavljaju različite valute u menjačnici.
+
+Osnovna Klasa: Valuta
+promenljive: naziv , simbol, i kurs.
+Konstruktor: Postavlja vrednosti za naziv, simbol i kurs valute.
+Metoda: konvertujUdinare(iznos: number), koja konvertuje zadati iznos u dinare koristeći trenutni kurs valute.
+Dolar:
+Nasleđuje klasu Valuta.
+Konstruktor: Postavlja vrednosti za naziv "Dolar", simbol "USD", i trenutni kurs prema dinarima.
+Dodatna Metoda: postaviKursNovi(kurs: number), koja postavlja novi kurs dolara.
+Evro:
+Nasleđuje klasu Valuta.
+Konstruktor: Postavlja vrednosti za naziv "Evro", simbol "EUR", i trenutni kurs prema dinarima.
+Dodatna Metoda: postaviKursNovi(kurs: number), koja postavlja novi kurs evra.
+Napisati glavni program koji kreira objekte za dolar i evro, postavlja njihove kurseve, i vrši konverziju određenih iznosa
+iz jedne valute u drugu.

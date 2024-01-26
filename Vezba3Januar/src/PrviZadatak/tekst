@@ -1,0 +1,15 @@
+
+Zadatak 2:
+Napraviti klasu Film koja ima naziv, godinu izdanja i listu Glumaca. Svaki Glumac ima ime,
+prezime i godine iskustva. Implementirati metodu:
+
+najmladjiGlumac() - koja vraća ime i prezime najmlađeg glumca na filmu.
+Napraviti klasu Režiser koja ima ime, prezime i listu Filmova koje je režirao. Implementirati metodu:
+
+najuspešnijiFilm() - koja vraća naziv filma koji je režirao sa najvećim brojem godina iskustva najmlađeg glumca.
+Klasa FilmskiProducent nasleđuje klasu Režiser i on dobija bonuse u iznosu od 5000 evra za svaki film sa više od 100
+miliona dolara zarade.
+
+Klasa Scenarista ima listu Filmova koje je napisao. Implementirati metodu:
+
+prosekGodinaIskustva() - koja vraća prosečan broj godina iskustva svih glumaca u filmovima koje je napisao scenarista.

@@ -1,0 +1,13 @@
+Napraviti klasu Namirnica koja ima cenu i naziv.
+Napraviti klasu Korpa koja ima listu namirnica.Takodje ima metodu:
+- ukupnaZaradaKorpe() - vraca cenu svih namirnica u korpi
+- popust() - ostvaruje 10% popust na sve namirnice u korpi
+- daLiSeNalazi(Namirnica n) - vraca true ako se data namirnica nalazi u listi
+Klasa Kupac kao atribute ima jednu korpu, vaucer za kupovinu(double) i svoju svotu novca. Takodje ima metode:
+- najskuplji() - vraca najskuplji artikl iz korpe
+- skratiKorpu() - u slucaju da kupac ima manje para nego sto mu treba, izbacuje artikl po artikl sve dok ne bude imao
+dovoljno para.
+- ubaci(Artikl a) - ubacuje artikl u korpu, ukoliko kupac ima dovoljno para za to.
+Klasa Prodavnica ima listu kupaca.Takodje ima metod:
+-zlatniKupac() - vraca kupca koji je potrosio najvise para u prodavnici
+-nagradniPobednik() - vraca nasumicnog kupca iz liste koji je osvojio putovanje

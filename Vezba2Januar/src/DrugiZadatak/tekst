@@ -1,0 +1,9 @@
+2. Definišemo hijerarhiju klasa koje predstavljaju kućne ljubimce. Osnovna klasa je Zivotinja, koja ima
+promenljivu vrsta i metodu zvuk() koja ispisuje zvuk koji proizvodi zivotinja.
+Zatim, kreiramo podklasu Pas, koja nasleđuje od Zivotinja. Klasa Pas ima dodatno svojstvo rasa.
+Konstruktor klase Pas prima i poziva konstruktor roditeljske klase pomoću super(), postavljajući vrsta prema prosleđenom argumentu.
+Takođe, override-uje metodu zvuk() da bi pas izdavao specifičan zvuk "Av-av!".
+Dodatno, klasa Pas ima i novu metodu donesiPalicu(), koja simulira akciju psa donošenja palice (ispisuje obican string
+"pas donosi palicu").
+U glavnom programu, pravimo objekat klase Pas, postavljamo vrstu psa i pozivamo različite metode.
+Pozivom metode zvuk() ispisuje se karakterističan zvuk psa, dok metoda donesiPalicu() simulira radnju donošenja igračke.

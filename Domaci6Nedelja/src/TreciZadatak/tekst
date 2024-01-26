@@ -1,0 +1,7 @@
+Napraviti apstraktnu klasu Artikal koja sadrži osnovne informacije o proizvodu kao što su naziv, cena i dostupna količina.
+Definisati apstraktnu metodu izracunajUkupnuCenu koju je potrebno implmentirati u svakoj od klasa koje nasleđuju apstraktnu
+klasu Artikal.
+Kreirati klase Hrana i Tehnika koje nasleđuju klasu Artikal i dodati dodatne atribute i metode specifične za svaku kategoriju
+proizvoda.
+U klasi Tehnika na ukupnu cenu dodati PDV od 10%.
+Dodati atribute koji opisuju specifične karakteristike proizvoda, na primer, kategoriju proizvoda ili rok trajanja.

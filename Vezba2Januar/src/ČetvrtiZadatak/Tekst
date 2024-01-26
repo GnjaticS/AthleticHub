@@ -1,0 +1,17 @@
+Definišemo hijerarhiju klasa koje predstavljaju knjige u biblioteci.
+Osnovna Klasa: Knjiga
+promenljive: naslo, autor, i godinaIzdanja.
+Konstruktor: Postavlja vrednosti za naslov, autora i godinu izdanja knjige.
+Metoda: prikaziInformacije(), koja ispisuje osnovne informacije o knjizi.
+Romani:
+Nasleđuju klasu Knjiga.
+dodatna promenljiva: zanr
+Konstruktor: Postavlja vrednosti za naslov, autora, godinu izdanja i žanr romana.
+Dodatna Metoda: prikaziInformacije(), koja override-uje osnovnu metodu i dodaje prikaz žanra.
+Naučne Knjige:
+Nasleđuju od Knjiga.
+dodatna promenljiva: naučnaOblast
+Konstruktor: Postavlja vrednosti za naslov, autora, godinu izdanja i naučnu oblast knjige.
+Dodatna Metoda: prikaziInformacije(), koja override-uje osnovnu metodu i dodaje prikaz naučne oblasti.
+Napisati glavni program koji kreira objekte različitih vrsta knjiga (romana, naučnih knjiga), postavlja njihove informacije,
+i poziva metodu prikaziInformacije() da bi se ispisale informacije o svakoj knjizi.

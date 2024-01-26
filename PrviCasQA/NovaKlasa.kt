@@ -1,0 +1,8 @@
+class NovaKlasa {
+
+    psvm
+
+}
+
+
+}

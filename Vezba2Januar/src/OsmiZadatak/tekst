@@ -1,0 +1,10 @@
+Definišemo apstraktnu klasu BankovniRacun koja predstavlja osnovne informacije o bankovnom računu.
+Svaki bankovni račun ima broj računa, vlasnika i trenutno stanje.
+Implementiramo apstraktan metod izvrsiTransakciju(double iznos) koji će biti različito implementiran u konkretnim tipovima računa.
+Kreiramo podklasu TekuciRacun koja nasleđuje BankovniRacun. Tekući račun ima dodatni atribut dozvoljeniMinus koji
+predstavlja prekoračenje dozvoljeno na računu.
+Implementiramo metodu izvrsiTransakciju za tekući račun koja omogućava izvršavanje transakcija na računu, uz proveru dozvoljenog
+minusa.
+Kreiramo podklasu StedniRacun koja nasleđuje BankovniRacun. Štedni račun ima dodatni atribut kamatnaStopa koja predstavlja kamatnu
+stopu za štednju.
+Implementiramo metodu izvrsiTransakciju za štedni račun koja omogućava uplatu na račun uz obračunavanje kamate.
